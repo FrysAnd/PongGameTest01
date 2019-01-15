@@ -45,12 +45,14 @@ public class Ball01 : MonoBehaviour {
             Debug.Log("Right Player Wins!");
             Score01.scoreP1 += 1;
             transform.position = new Vector2(0, 0);
+            speed = 4;
 
         }
         if (transform.position.x > GameManager.topRight.x - radius && direction.x > 0){
             Debug.Log("Left Player Wins!");
             Score01.scoreP2 += 1;
             transform.position = new Vector2(0, 0);
+            speed = 4;
           
         }
     }
@@ -61,11 +63,11 @@ public class Ball01 : MonoBehaviour {
 
             if (isRight == true && direction.x > 0) {
                 direction.x = -direction.x;
-                speed = 4;
+
             }
             if (isRight == false && direction.x < 0) {
                 direction.x = -direction.x;
-                speed = 4;
+
             }
         }
     }
