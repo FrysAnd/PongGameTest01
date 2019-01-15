@@ -43,12 +43,12 @@ public class Ball01 : MonoBehaviour {
         // Game over
         if (transform.position.x < GameManager.bottomLeft.x + radius && direction.x < 0){
             Debug.Log("Right Player Wins!");
-            Score01.scoreP1 += 1; 
-            Destroy(gameObject);
-            gameManager.InstantiateBall();
+            Score01.scoreP1 += 1;
+            //Destroy(gameObject);
+            //gameManager.InstantiateBall();
+            transform.position = new Vector3(0, 0, 0);
 
 
-       
 
 
 
@@ -56,9 +56,9 @@ public class Ball01 : MonoBehaviour {
         if (transform.position.x > GameManager.topRight.x - radius && direction.x > 0){
             Debug.Log("Left Player Wins!");
             Score01.scoreP2 += 1;
-            Destroy(gameObject);
-            gameManager.InstantiateBall();
-
+            //Destroy(gameObject);
+            //gameManager.InstantiateBall();
+            transform.position = new Vector3(0, 0, 0);
 
          
            
