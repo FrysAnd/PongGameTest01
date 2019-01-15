@@ -44,24 +44,14 @@ public class Ball01 : MonoBehaviour {
         if (transform.position.x < GameManager.bottomLeft.x + radius && direction.x < 0){
             Debug.Log("Right Player Wins!");
             Score01.scoreP1 += 1;
-            //Destroy(gameObject);
-            //gameManager.InstantiateBall();
-            transform.position = new Vector3(0, 0, 0);
-
-
-
-
+            transform.position = new Vector2(0, 0);
 
         }
         if (transform.position.x > GameManager.topRight.x - radius && direction.x > 0){
             Debug.Log("Left Player Wins!");
             Score01.scoreP2 += 1;
-            //Destroy(gameObject);
-            //gameManager.InstantiateBall();
-            transform.position = new Vector3(0, 0, 0);
-
-         
-           
+            transform.position = new Vector2(0, 0);
+            speed = 4;
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -74,6 +64,7 @@ public class Ball01 : MonoBehaviour {
             }
             if (isRight == false && direction.x < 0) {
                 direction.x = -direction.x;
+                speed = 4;
             }
         }
     }
