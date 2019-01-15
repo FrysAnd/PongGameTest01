@@ -360,4 +360,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 114548525904462310, guid: aeb55713442ad4bd3b5f98f777dd9193, type: 2}
   paddle: {fileID: 114397776877609424, guid: ef068a09b7f2f46eea38da2843083b20, type: 2}
-  score: {fileID: 114296343120378272, guid: 098d5bb71abe24c24954bd12354deaf8, type: 2}
+  score: {fileID: 114320442515219502, guid: 7eaec16b4478c4aa3912ddc198da5d78, type: 2}

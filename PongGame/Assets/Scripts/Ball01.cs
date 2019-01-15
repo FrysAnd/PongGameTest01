@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ball01 : MonoBehaviour {
 
-    public GameManager gameManager;
+   
 
     [SerializeField]
     float speed;
@@ -42,15 +42,16 @@ public class Ball01 : MonoBehaviour {
 
         // Game over
         if (transform.position.x < GameManager.bottomLeft.x + radius && direction.x < 0){
-            Debug.Log("Right Player Wins!");
-            Score01.scoreP1 += 1;
+            //Right Player Wins!
+            Score01.scoreP2 += 1;
+
             transform.position = new Vector2(0, 0);
             speed = 4;
 
         }
         if (transform.position.x > GameManager.topRight.x - radius && direction.x > 0){
-            Debug.Log("Left Player Wins!");
-            Score01.scoreP2 += 1;
+            //"Left Player Wins!
+            Score01.scoreP1 += 1;
             transform.position = new Vector2(0, 0);
             speed = 4;
           

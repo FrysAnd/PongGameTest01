@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GameManager : MonoBehaviour {
 
     public Ball01 ball;
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+       
         
 	}
     void InstantianteStart (){
@@ -39,4 +41,5 @@ public class GameManager : MonoBehaviour {
    public void InstantiateBall(){
         Instantiate(ball, transform.position, transform.rotation);
     }
+
 }
