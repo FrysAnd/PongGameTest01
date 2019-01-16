@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{0554FD02-3DE4-85C1-72A2-F037F528D37C}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Ball01.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Score01.cs">
     <Files>
       <File FileName="Assets/Scripts/Ball01.cs" Line="49" Column="23" />
       <File FileName="Assets/Scripts/GameManager.cs" Line="22" Column="8" />
