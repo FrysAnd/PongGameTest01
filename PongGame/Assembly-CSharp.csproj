@@ -61,11 +61,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Ball01.cs" />
-    <Compile Include="Assets\Scripts\BallMattias.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Paddle01.cs" />
-    <Compile Include="Assets\Scripts\Score01.cs" />
+    <Compile Include="Assets\Scripts\FINAL\Ball01.cs" />
+    <Compile Include="Assets\Scripts\FINAL\GameManager.cs" />
+    <Compile Include="Assets\Scripts\FINAL\Paddle01.cs" />
+    <Compile Include="Assets\Scripts\FINAL\Score01.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
