@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\FINAL\GameManager.cs" />
     <Compile Include="Assets\Scripts\FINAL\Paddle01.cs" />
     <Compile Include="Assets\Scripts\FINAL\Score01.cs" />
+    <Compile Include="Assets\Scripts\InProgress\BallAndresTest.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
