@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Playgrounds/JohansPlayground.unity
+- path: Assets/Scenes/FINAL/Game.unity
   isLoaded: 1
   isActive: 1
