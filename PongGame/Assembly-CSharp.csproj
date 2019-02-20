@@ -65,18 +65,19 @@
     <Compile Include="Assets\Scripts\FINAL\GameManager.cs" />
     <Compile Include="Assets\Scripts\FINAL\Paddle01.cs" />
     <Compile Include="Assets\Scripts\FINAL\Score01.cs" />
-    <Compile Include="Assets\Scripts\InProgress\BallAndresTest.cs" />
+    <Compile Include="Assets\Scripts\InProgress\AndresPlayground\BallAndresTest.cs" />
+    <Compile Include="Assets\Scripts\InProgress\AndresPlayground\HarmonyMechanics.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
@@ -285,9 +286,6 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
@@ -296,9 +294,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
