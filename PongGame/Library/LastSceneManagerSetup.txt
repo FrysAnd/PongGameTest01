@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/FINAL/Game.unity
+- path: Assets/Scenes/Playgrounds/AndresPlayground.unity
   isLoaded: 1
   isActive: 1
