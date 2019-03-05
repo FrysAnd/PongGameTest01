@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\FINAL\Score01.cs" />
     <Compile Include="Assets\Scripts\InProgress\AndresPlayground\BallAndresTest.cs" />
     <Compile Include="Assets\Scripts\InProgress\AndresPlayground\HarmonyMechanics.cs" />
+    <Compile Include="Assets\Scripts\InProgress\AndresPlayground\Hejsan.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/andresbendeck01/Documents/GitHub/PongGameTest01/PongGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
